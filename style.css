@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body { background-color: #f7f7f7; margin:0; font-family:avenir;}
+
+/* MENU BAR vv START */
+.sitemenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.sitelist {
+  float: left;
+}
+
+.sitelist a {
+  display: block;
+  color: #1f1f1f;
+  text-align: center;
+  padding: 20px 30px;
+  font-size: small;
+  font-weight: bold;
+  text-decoration: none;
+}
+.sitelist :hover {
+  color: #525252;
+}
+/* MENU BAR ^^^ END */
+
+.content {
+padding-top: 4%;
+padding-bottom: 4%;
+padding-left: 5%;
+padding-right: 5%
+}
+
+h1 {color: white;
+font-size: 40px;
+font-family: Avenir;
+font-weight: 900;
+letter-spacing: 3px;
+text-align: center;
+
+}
+
+h2 {color: black;
+font-family: avenir;
+text-align: left;
+font-size: 40px;
+
+}
+
+.Title-home { background-image: url(https://i.pinimg.com/originals/77/94/66/779466ca2c34f6caf1900bb80c4b7f0f.jpg);
+background-size: cover; align-items: center; text-align: center;padding-top:160px; padding-bottom: 250px; height: 1000px; background-position: center;
+}
+.Title-about { background-image: url(https://images.pexels.com/photos/5537673/pexels-photo-5537673.jpeg?cs=srgb&dl=pexels-giovanni-calia-5537673.jpg&fm=jpg);
+background-size: cover; align-items: center; text-align: center;padding-top:160px; padding-bottom: 250px; height: 1000px; background-position: center;
+}
+
+.tagline{font-size: 30px ; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; color:white}
+.button1 {
+  margin-top: 200px;  
+  border: none;
+  background-color: white;
+  color: #6B6B6B;
+  padding: 15px 32px;
+  border-radius:5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: avenir;
+}
+
+.button1:hover {background-color: #6B6B6B ; color:white;}
+
+.quote {text-align: center; color: white; font-style: italic; font-family: "Times New Roman"; font-size: small; font-weight: 100;}
+
+.photo-album {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:avenir;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.photo-album > div {
+  width: 27%;
+  margin: 5px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 16px;
+  padding: 0%
+}
+.phototext{
+    margin: 0;
+}
+.phototext:hover {
+    backdrop-filter: blur(1px);
+}
+/* PHOTO ALBUM OUR DESTINATIONS */
+.France {
+    background-image: url(https://petiteinparis.com/wp-content/uploads/2021/03/Photo-of-the-Eiffel-Tower-sunset-Petite-in-Paris.jpg); background-size:cover;
+}
+
+.Maldives {
+    background-image: url(https://i.pinimg.com/736x/97/b7/47/97b7478deca26eecb33066f3560aff04.jpg); background-size:cover;
+}
+.Spain {
+    background-image: url(https://i2.wp.com/travelingwithquality.com/wp-content/uploads/2019/10/madrid-wallpapers-28708-538624.jpg?fit=1920%2C1080&ssl=1); background-size:cover;
+}
+.Morroco {
+    background-image: url(https://www.lauraivanova.com/wp-content/uploads/2019/05/morocco_travel_film_01.jpg); background-size:cover;
+}
+.Turkey {
+    background-image: url(https://i.pinimg.com/736x/f5/71/27/f57127f8564c3ec2dc7704090c2ae7e4.jpg); background-size:cover;
+}
+.Italy {
+    background-image: url(https://i.pinimg.com/originals/90/a8/2c/90a82c966f23459d080bf9711a36a6be.jpg); background-size:cover;
+}
+.Thailand {
+    background-image: url(https://pelorusx.com/wp-content/uploads/2020/08/ko-hong-lagoon-thailand-hero.jpg); background-size:cover;
+}
+.Japan {
+    background-image: url(https://nomadict.org/wp-content/uploads/2019/03/aviary-image-1552929316133-814x1024.jpeg); background-size:cover;
+}
+.Australia {
+    background-image: url(https://wallpaperaccess.com/full/3356097.jpg); background-size:cover;
+}
+
+/* PHOTO ALBUM OUR DESTINATIONS */
+
+.Fuerteventura {
+    background-image: url(https://thesurfatlas.com/wp-content/uploads/2020/07/Corralejo-surf.jpg); background-size:cover;
+}
