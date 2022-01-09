@@ -109,7 +109,7 @@ background-size: cover; align-items: center; text-align: center;padding-top:160p
 .column-pic-kevin {
   flex: 50%;
   padding: 20px;
-  background-image: url(img/kevin.png);
+  background-image: url(img/kevin.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
