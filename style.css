@@ -97,7 +97,16 @@ background-size: cover; align-items: center; text-align: center;padding-top:160p
   font-size: small;
 
 }
-.column-pic {
+.column-pic-janis {
+  flex: 50%;
+  padding: 20px;
+  background-image: url(img/beachpic.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.column-pic-janis {
   flex: 50%;
   padding: 20px;
   background-image: url(img/beachpic.jpg);
