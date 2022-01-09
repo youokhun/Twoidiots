@@ -87,15 +87,16 @@ background-size: cover; align-items: center; text-align: center;padding-top:160p
 
 /* TWO COLUMN LAYOUT */
 
-.row {
+.about-row {
   display: flex;
   margin: 5%;
   overflow: hidden;
   border-radius: 5px;
+  height: 50%;
 
 }
 .column {
-  flex: 80%;
+  flex: 60%;
   padding: 20px;
   background-color: #f0f0f0;
   font-size: small;
