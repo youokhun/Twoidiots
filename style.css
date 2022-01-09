@@ -25,7 +25,7 @@ body { background-color: #f7f7f7; margin:0; font-family:avenir;}
   display: block;
   color: #1f1f1f;
   text-align: center;
-  padding: 20px 30px;
+  padding: 15px 20px;
   font-size: small;
   font-weight: bold;
   text-decoration: none;
@@ -59,10 +59,10 @@ font-size: 40px;
 }
 
 .Title-home { background-image: url(https://i.pinimg.com/originals/77/94/66/779466ca2c34f6caf1900bb80c4b7f0f.jpg);
-background-size: cover; align-items: center; text-align: center;padding-top:160px; padding-bottom: 250px; height: 1000px; background-position: center;
+background-size: cover; align-items: center; text-align: center;padding-top:160px; padding-bottom: 200px; height: 1000px; background-position: center;
 }
 .Title-about { background-image: url(https://images.pexels.com/photos/5537673/pexels-photo-5537673.jpeg?cs=srgb&dl=pexels-giovanni-calia-5537673.jpg&fm=jpg);
-background-size: cover; align-items: center; text-align: center;padding-top:160px; padding-bottom: 250px; height: 1000px; background-position: center;
+background-size: cover; align-items: center; text-align: center;padding-top:160px; padding-bottom: 200px; height: 600px; background-position: center;
 }
 
 .tagline{font-size: 30px ; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; color:white}
@@ -84,6 +84,27 @@ background-size: cover; align-items: center; text-align: center;padding-top:160p
 .button1:hover {background-color: #6B6B6B ; color:white;}
 
 .quote {text-align: center; color: white; font-style: italic; font-family: "Times New Roman"; font-size: small; font-weight: 100;}
+
+/* TWO COLUMN LAYOUT */
+
+.row {
+  display: flex;
+  padding: 5%;
+}
+.column {
+  flex: 80%;
+  padding: 20px;
+  font-size: small;
+
+}
+.column-pic {
+  flex: 50%;
+  padding: 20px;
+  background-image: url(img/beachpic.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
 
 .photo-album {
   display: flex;
@@ -107,6 +128,10 @@ background-size: cover; align-items: center; text-align: center;padding-top:160p
 .phototext:hover {
     backdrop-filter: blur(1px);
 }
+.animation {
+  width: 100%;
+}
+
 /* PHOTO ALBUM OUR DESTINATIONS */
 .France {
     background-image: url(https://petiteinparis.com/wp-content/uploads/2021/03/Photo-of-the-Eiffel-Tower-sunset-Petite-in-Paris.jpg); background-size:cover;
